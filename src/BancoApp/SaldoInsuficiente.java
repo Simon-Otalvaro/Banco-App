@@ -1,2 +1,7 @@
-package BancoApp;public class SaldoInsuficiente {
+package BancoApp;
+
+public class SaldoInsuficiente extends Exception {
+    public SaldoInsuficiente(String mensaje) {
+        super(mensaje);
+    }
 }
